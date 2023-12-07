@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+
+</head>
+
+<body>
+    <h1>Cricket Records Data</h1>
+    <h2>Batting Records:</h2>
+    <table border="1">
+        <tr>
+            <th>Player</th>
+            <th>Span</th>
+            <th>Match</th>
+            <th>Innings</th>
+            <th>Not Out</th>
+            <th>Runs</th>
+            <th>Highest</th>
+            <th>Average</th>
+            <th>Balls Faced</th>
+            <th>Strike Rate</th>
+            <th>100</th>
+            <th>50</th>
+            <th>0</th>
+            <th>4s</th>
+            <th>6s</th>
+            <!-- Add other table headers for batting data -->
+        </tr>
+        {% for row in batting_data %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td>{{ row[4] }}</td>
+            <td>{{ row[5] }}</td>
+            <td>{{ row[6] }}</td>
+            <td>{{ row[7] }}</td>
+            <td>{{ row[8] }}</td>
+            <td>{{ row[9] }}</td>
+            <td>{{ row[10] }}</td>
+            <td>{{ row[11] }}</td>
+            <td>{{ row[12] }}</td>
+            <td>{{ row[13] }}</td>
+            <td>{{ row[14] }}</td>
+            <!-- Add other table data for batting data -->
+        </tr>
+        {% endfor %}
+    </table>
+    <h2>Bowling Records:</h2>
+    <table border="1">
+        <tr>
+            <th>Player</th>
+            <th>Span</th>
+            <th>Match</th>
+            <th>Innings</th>
+            <th>Balls</th>
+            <th>Overs</th>
+            <th>Maiden Over</th>
+            <th>Runs</th>
+            <th>Wickets</th>
+            <th>BBI</th>
+            <th>Average</th>
+            <th>Economy</th>
+            <th>Strike Rate</th>
+            <th>4 Wickets</th>
+            <th>5 Wickets</th>
+            <!-- Add other table headers for bowling data -->
+        </tr>
+        {% for row in bowling_data %}
+        <tr>
+            <td>{{ row[0] }}</td>
+            <td>{{ row[1] }}</td>
+            <td>{{ row[2] }}</td>
+            <td>{{ row[3] }}</td>
+            <td>{{ row[4] }}</td>
+            <td>{{ row[5] }}</td>
+            <td>{{ row[6] }}</td>
+            <td>{{ row[7] }}</td>
+            <td>{{ row[8] }}</td>
+            <td>{{ row[9] }}</td>
+            <td>{{ row[10] }}</td>
+            <td>{{ row[11] }}</td>
+            <td>{{ row[12] }}</td>
+            <td>{{ row[13] }}</td>
+            <td>{{ row[14] }}</td>
+            <!-- Add other table data for bowling data -->
+        </tr>
+        {% endfor %}
+    </table>
+</body>
+
+</html>

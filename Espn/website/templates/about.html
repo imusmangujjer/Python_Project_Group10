@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/styles.css')}}">
+</head>
+
+<body>
+    <h1>About Cricket Records</h1>
+    <p>The Cricket World Cup 2023 is a major international cricket tournament featuring teams from around the world competing for the title of world champions. Held every four years, it is one of the most prestigious events in cricket. The tournament showcases thrilling matches, intense rivalries, and extraordinary performances from players representing their nations. With a rich history and a global fan base, the World Cup is a platform where teams demonstrate their skills, strategies, and resilience, creating moments of excitement and glory that resonate throughout the cricketing world. This dataset will show Cricket batting and bowling records of Cricket WorldCup 2023.</p>
+
+    <h2>Batting Records</h2>
+    <div>
+        <h3>Dataset link : </h3>
+        <a href="https://www.espncricinfo.com/records/tournament/batting-most-runs-career/icc-cricket-world-cup-2023-24-15338" class="button">Batting Records</a>
+    </div>
+
+    <h2>Description Of Batting Data</h2>
+    <table>
+        <tr>
+            <th>Variable</th>
+            <th>Description</th>
+        </tr>
+        <!-- Batting Records -->
+        <tr>
+            <td>Player</td>
+            <td>Name of the cricket player.</td>
+        </tr>
+        <tr>
+            <td>Span</td>
+            <td>The time duration during which the player participated in matches.</td>
+        </tr>
+        <tr>
+            <td>Match</td>
+            <td>Total number of matches played by the player.</td>
+        </tr>
+        <tr>
+            <td>Innings</td>
+            <td>Number of innings played by the player.</td>
+        </tr>
+        <tr>
+            <td>Not Out</td>
+            <td>Number of times the player remained not out in innings.</td>
+        </tr>
+        <tr>
+            <td>Runs</td>
+            <td>Total runs scored by the player.</td>
+        </tr>
+        <tr>
+            <td>Highest</td>
+            <td>The highest score achieved by the player in a single inning.</td>
+        </tr>
+        <tr>
+            <td>Average</td>
+            <td>The average runs scored per dismissal.</td>
+        </tr>
+        <tr>
+            <td>Balls Faced</td>
+            <td>Total number of balls faced by the player.</td>
+        </tr>
+        <tr>
+            <td>Strike Rate</td>
+            <td>Rate at which runs are scored per 100 balls faced.</td>
+        </tr>
+        <tr>
+            <td>100</td>
+            <td>Total number of centuries (100 runs in a single inning) scored by the player.</td>
+        </tr>
+        <tr>
+            <td>50</td>
+            <td>Total number of half-centuries (50 runs in a single inning) scored by the player.</td>
+        </tr>
+        <tr>
+            <td>0</td>
+            <td>Total number of times the player got out without scoring.</td>
+        </tr>
+        <tr>
+            <td>4s</td>
+            <td>Total number of fours (boundaries) hit by the player.</td>
+        </tr>
+        <tr>
+            <td>6s</td>
+            <td>Total number of sixes (over boundaries) hit by the player.</td>
+        </tr>
+    </table>
+
+
+    <h2>Bowling Records</h2>
+    <div>
+        <h3>Dataset link : </h3>
+        <a href="https://www.espncricinfo.com/records/tournament/bowling-most-wickets-career/icc-cricket-world-cup-2023-24-15338" class="button">Bowling Records</a>
+    </div>
+
+    <h2>Description Of Bowling Data</h2>
+    <table>
+        <tr>
+            <th>Variable</th>
+            <th>Description</th>
+        </tr>
+        <!-- Bowling Records -->
+        <tr>
+            <td>Player</td>
+            <td>Name of the cricket player.</td>
+        </tr>
+        <tr>
+            <td>Span</td>
+            <td>The time duration during which the player participated in matches as a bowler.</td>
+        </tr>
+        <tr>
+            <td>Match</td>
+            <td>Total number of matches bowled by the player.</td>
+        </tr>
+        <tr>
+            <td>Innings</td>
+            <td>Number of innings bowled by the player.</td>
+        </tr>
+        <tr>
+            <td>Balls</td>
+            <td>Total number of balls bowled by the player.</td>
+        </tr>
+        <tr>
+            <td>Overs</td>
+            <td>Total number of overs bowled by the player.</td>
+        </tr>
+        <tr>
+            <td>Maiden Over</td>
+            <td>Total number of maiden overs bowled by the player.</td>
+        </tr>
+        <tr>
+            <td>Runs</td>
+            <td>Total runs conceded by the player.</td>
+        </tr>
+        <tr>
+            <td>Wickets</td>
+            <td>Total wickets taken by the player.</td>
+        </tr>
+        <tr>
+            <td>BBI</td>
+            <td>Best Bowling in an innings by the player.</td>
+        </tr>
+        <tr>
+            <td>Average</td>
+            <td>The average runs conceded per wicket taken.</td>
+        </tr>
+        <tr>
+            <td>Economy</td>
+            <td>The average number of runs conceded per over bowled.</td>
+        </tr>
+        <tr>
+            <td>Strike Rate</td>
+            <td>The average number of balls bowled per wicket taken.</td>
+        </tr>
+        <tr>
+            <td>4 Wickets</td>
+            <td>Total number of times the player took 4 wickets in an innings.</td>
+        </tr>
+        <tr>
+            <td>5 Wickets</td>
+            <td>Total number of times the player took 5 wickets in an innings.</td>
+        </tr>
+        <!-- Add other bowling variables and their descriptions as needed -->
+    </table>
+</body>
+
+</html>
+
