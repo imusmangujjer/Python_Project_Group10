@@ -4,7 +4,6 @@ import pathlib
 from pathlib import Path
 import os
 
-!pip install -r requirements.txt
 app = Flask(__name__)
 app.secret_key = 'manbearpig_MD12'  # Set a secret key for Flask sessions
 
