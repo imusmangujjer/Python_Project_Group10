@@ -48,7 +48,7 @@ Step 1:
 - Clone the project first or download zip of project and extract it
 - Our 'cricket_records.db' file in Database Folder
 Step 2:
- - If you not see 'cricket_records.db' file in database directory, then open new terminal in 'database' folder
+ - If you not see 'cricket_records.db' file in Database directory, then open new terminal in 'Database' folder
  - Run "python_project.py" command, this will create new database file, create a table and insert data from The links provided for Cricinfo Website
 
 Step 3:
