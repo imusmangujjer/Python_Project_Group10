@@ -5,4 +5,4 @@ Batting Records: Includes statistics related to player performances while battin
 
 Bowling Records: Encompasses statistics linked to bowlers' performances, including wickets taken, economy rates, bowling averages, and other pertinent data.
 
-Utilizing Python's Pandas for web scraping, SQLite3 for database integration, and visualization tools to categorize and display the data, this project will facilitate a comprehensive understanding of cricketing data, specifically focusing on batting and bowling records.
+Utilizing Python's Pandas for web scraping, SQLite3 for database integration, and visualization tools to categorize, display the data by creating a website using HTML, CSS and FLASK. This project will facilitate a comprehensive understanding of cricketing data, specifically focusing on batting and bowling records.
